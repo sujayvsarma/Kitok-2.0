@@ -1,0 +1,46 @@
+/*
+
+    This stylesheet provides styles for various webparts for the Ki'Tok 2.0 theme.
+
+    Theme Name: Ki'Tok version 2
+    Theme URI: https://sujayvsarma.com/products/wordpress/themes/kitok/
+    Author: Sujay V Sarma
+    Author URI: https://sujayvsarma.com/
+    Description: Theme provides for a dynamic frontpage with content from multiple sources, a "book"-style categories page as well as regular technical blog pages, and we have YouTube + Podcast friendly UI
+    Version: 2.0.0
+    License: Free to Use, Cannot Modify or Copy
+    License URI: https://sujayvsarma.com/terms
+    Tags: frontpage, book, stories, author, blog, youtube, podcast, media
+    Text Domain: KiTok
+*/
+
+.kitok2-webpart {
+    background-color: transparent;
+}
+
+    .kitok2-webpart .header {
+        clear: both;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        
+        background-color: transparent;
+        
+        padding: 1em;
+        border: 0px;
+        border-radius: 3px 4px;
+    }
+
+    .kitok2-webpart h1 {
+        font-size: 115%;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: solid 2px #9e9e9e;
+    }
+
+    .kitok2-webpart .content {
+        font-size: 100%;
+        font-weight: normal;
+        text-transform: none;
+        color: #343a40;
+    }
+

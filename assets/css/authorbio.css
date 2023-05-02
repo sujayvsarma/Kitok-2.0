@@ -1,0 +1,54 @@
+/*
+
+    This stylesheet provides the styles for the Author Biography and articles list for the Ki'Tok 2.0 theme.
+
+    Theme Name: Ki'Tok version 2
+    Theme URI: https://sujayvsarma.com/products/wordpress/themes/kitok/
+    Author: Sujay V Sarma
+    Author URI: https://sujayvsarma.com/
+    Description: Theme provides for a dynamic frontpage with content from multiple sources, a "book"-style categories page as well as regular technical blog pages, and we have YouTube + Podcast friendly UI
+    Version: 2.0.0
+    License: Free to Use, Cannot Modify or Copy
+    License URI: https://sujayvsarma.com/terms
+    Tags: frontpage, book, stories, author, blog, youtube, podcast, media
+    Text Domain: KiTok
+
+*/
+
+.kitok2-authorbio {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    img.kitok2-authorbio {
+        width: 160px !important;
+        height: auto !important;
+        border-radius: 50%;
+        vertical-align: text-top;
+        word-wrap: normal;
+    }
+
+    .kitok2-authorbio .content {
+        font-size: 0.8em;
+        font-weight: normal;
+        text-align: justify;
+    }
+
+    .kitok2-authorbio .contactinfo {
+        text-align: right;
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+
+        .kitok2-authorbio .contactinfo a, .kitok2-authorbio .contactinfo a:visited, .kitok2-authorbio .contactinfo a:active {
+            color: #000000;
+            text-decoration: none;    
+        }
+
+        .kitok2-authorbio .contactinfo a:hover {
+            text-decoration: underline;
+            color: #000000;
+        }
